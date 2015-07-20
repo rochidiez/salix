@@ -1,0 +1,215 @@
+/* general */
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'open_sansregular', Arial, sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+nav {height: 100px; border-bottom: 1px solid #f1f1f1 !important;}
+.hide {display: none;}
+.show {display: block;}
+.white {color:#ffffff;}
+
+h1 {font-family: 'oswaldregular';
+	font-size: 42px;
+	text-transform: uppercase;
+	line-height: 1.2;}
+h1 span {font-family: 'oswaldlight';}
+h2 {color: #000;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'open_sanslight';
+	line-height: 1.5;}
+h3 {text-transform: uppercase;
+	font-family: 'open_sanssemibold';
+	font-size: 16px;
+	margin-top: 0;}
+h4 {font-family: 'open_sanssemibold';
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: .5px;}
+h5 {font-family: 'open_sanssemibold';
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 8px 0 0 0;  }
+p {font-size: 14px;}
+/* Nav bar */
+.logo-salix img, .logo-salix object {width: 100%;}
+.navbar-default {background: #ffffff; border: 0;}
+.navbar-nav {text-transform: uppercase; font-size: 14px; }
+.navbar-nav li {margin: 0 15px; line-height: 4px;}
+.navbar-brand {width: 8%;}
+.navbar-header {width: 100%; }
+.selected {width: 100%; text-align: center; margin: 4px 0;}
+.selected img {width: 25px; height: 25px;}
+.nav {margin-top: 1.5%;}
+section {min-height: 100%; padding-top: 120px;}
+.navbar-nav li.active .selected.hide {display: block !important;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #066565; font-family: 'open_sanssemibold'; background: none;}
+li.social-link a {padding: 12px 6px !important;}
+.navbar-nav li {margin: 0 !important;}
+
+/* home */
+.intro-section {background: #066565;}
+.big-logo {text-align: center;}
+.big-logo object, .big-logo img { margin: 12% auto; width: 60%; }
+h1.slogan {text-align: right; margin-top: 30%; }
+.redes a {float: right; border: 0; margin: 1%; width: 12%;}
+.redes a img {width: 100%; opacity: 1;}
+.redes a:hover img {opacity: .5;}
+.scrollarrow {text-align: center; margin: 0 0 2% 0;}
+a.page-scroll:hover {color: #066565 !important; }
+
+/* about */
+.about-title {text-align: center; width: 60%; margin: 0 auto !important; float: none; }
+.about-title img {margin: 0 auto; width: 100%; border-bottom: 1px solid #cccccc; margin: 2% 0; padding-bottom: 2%;}
+.profile {margin: 5% 0;}
+.profile div div {width: 90%;}
+.profile-picture {text-align: center;}
+.profile-picture img {width: 100%;}
+ul.contact-profile {background: #faf9f9; list-style: none; padding: 0; width: 100%; margin-top: 4%;}
+ul.contact-profile li {float: left; margin: 2% 1%; letter-spacing: .5; }
+ul.contact-profile li:nth-child(1) {width: 50%;}
+ul.contact-profile li:nth-child(2) {width: 38%;}
+ul.contact-profile li:nth-child(3) {width: 6%;}
+
+ul.contact-profile li a { color: #4c4c4c;}
+ul.contact-profile li img {margin-right: 2%;}
+ul.contact-profile li a:hover  {opacity: .6;}
+
+/* services */
+.services-section {background: #f9bf00; margin-top: 150px;}
+.services-section h1 {text-align: center;}
+.serviciosicon ul {list-style: none; width: 30%; margin: 0 auto; padding: 1% 0; border-top: 1px solid #fff; }
+.serviciosicon ul li {float: left; width: 19%; margin: 0 3%; }
+.serviciosicon ul li img {width: 100%;}
+
+.serviciocontent {background: #ffffff; margin: 2% auto; box-shadow: 2px 2px 5px #9d7800; width: 80%;}
+.serviciocontent h2 {font-size: 14px; width: 80%; margin: 0 auto;}
+.serviciocontent h4 {color:#f9bf00; text-transform: uppercase; margin-top: 8%;}
+.serviciocontent ul {list-style: none;}
+.serviciocontent ul li {margin: 1% 0;}
+.serviciocontent ul li span {color: #f9bf00; margin: 0 2%; float: left;}
+.serviciocontent ul li p {float: left; width: 90%;}
+.serviciocontent .col-md-6 {padding: 2%;  }
+
+/* Valores */
+.value-section .title {width: 70%; margin: 0 auto;}
+.value-section h1 {color: #e75a00; text-align: center; border-bottom: 1px solid #fadecc;}
+.contentvalores {width: 80%; margin: 5% auto;}
+.contentvalores div div {background: #e75a00; padding: 10% 0; text-align: center; margin: 2% auto; width: 100%; height: 250px;}
+.contentvalores h3 {color: #ffffff; margin: 16px 0 0 0; font-size: 18px; line-height: 1;}
+.contentvalores p {font-family: 'open_sanslight'; color: #f5c6b5; width: 90%; margin: 0 auto;}
+
+/* contacto */
+.contact-section {background: #87b825}
+.contact-section h1 {text-align: center; border-bottom: 1px solid #9fc651; width: 60%; margin: 0 auto 5% auto; padding: 4% 0 1% 0;}
+
+label {color: #ffffff; font-family: 'open_sanssemibold';
+	letter-spacing: .5;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 12px; margin-top: 2%;}
+input {background: #87b825; border: 0; border-bottom: 1px solid #ffffff; color: #dbefb4; font-family: 'open_sanslight' }
+textarea {background: #87b825; border: 1px solid #ffffff; height: 100px; color: #dbefb4;}
+.field-sm {float: left; width: 48%; margin: 0 2% 0 0;}
+.field-lg {width: 98%;}
+.field-lg input, .field-sm input, .field-lg textarea {width: 100%;}
+.send input {border: 2px solid #ffffff;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 14px;
+			padding: 1% 4%;
+			font-family: 'open_sanssemibold';
+			float: right;
+			margin: 4% 2% 0 0;}
+.send input:hover {background: #ffffff; color: #87b825;}
+ul.salix-info {padding: 0; list-style: none;}
+ul.salix-info img, ul.salix-info div {float: left;}
+ul.salix-info li {clear: both; margin: 4% 0; padding-bottom: 16%;}
+.datos {margin-left: 2%;}
+.datos p {color: #dcfaa1; text-transform: uppercase; font-family: 'open_sanslight'; font-size: 12px;}
+.contact-section .scrollarrow {margin-top: 150px;}
+/*footer*/
+.footer {background: #3d3737;}
+.footer img, .footer object {float: right; margin: 2% 0;}
+
+
+.line-division {border-left: 2px solid #f9bf00;}
+#value1 {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -o-animation-delay: .2s;
+}
+#value2 {
+  -webkit-animation-delay: .4s;
+  -moz-animation-delay: .4s;
+  -o-animation-delay: .4s;
+}
+#value3 {
+  -webkit-animation-delay: .6s;
+  -moz-animation-delay: .6s;
+  -o-animation-delay: .6s;
+}
+#value4 {
+  -webkit-animation-delay: .8s;
+  -moz-animation-delay: .8s;
+  -o-animation-delay: .8s;
+}
+
+.alert {background: #034343; border: 1px solid #045252; color: #6c9a9a }
+
+@media screen and (max-width: 1200px) {
+	.profile div div {width: 100%;} 
+	.big-logo object, .big-logo img { width: 70%; }
+	.serviciocontent {width: 100%;}
+	.contentvalores {width: 100%;}
+
+}
+@media screen and (max-width: 990px) {
+	.navbar-brand {width: 12%;}
+	.about-title {width: 80%;}
+	.big-logo object, .big-logo img {width: 80%;}
+	h1 {font-size: 36px;}
+	.serviciocontent {padding-bottom: 4%;}
+	.serviciocontent h4 {margin-top: 2%;}
+	.serviciocontent h2 {border-bottom: 1px solid #f9bf00; padding-bottom: 2%;}
+	.line-division {border: 0;}
+	.value-section .title {width: 100%;}
+	
+	
+}
+@media screen and (max-width: 768px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #e7e7e7;
+		position: absolute;
+		width: 100%;
+		top: 86px;
+	}
+	.navbar-nav {background: #ffffff; }
+	.navbar-nav li {border-bottom: 1px solid #f1f1f1;}
+	.social-link {float: left;}
+	.selected {float: right; width: 10%; margin-top: -4px;}
+	h1.slogan {margin-top: 0;
+		text-align: center;
+		border: 1px solid #6c9a9a;
+		padding: 2%;}
+	.redes {margin: 0 auto;}
+	.serviciosicon ul {width: 60%;}
+	.scrollarrow img {width: 10%;}
+
+	}
+@media screen and (max-width: 530px) {
+	ul.contact-profile li:nth-child(1), ul.contact-profile li:nth-child(2), ul.contact-profile li:nth-child(3) {width: 100%;}
+}
+@media screen and (max-width: 480px) {
+.navbar-brand {width: 20%;}
+h1 {font-size: 30px;}
+
+}
